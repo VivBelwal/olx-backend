@@ -7,7 +7,7 @@ const PostSchema = new Schema({
 		image : {type : String},
 		location : {type : String},
 		postedAt : {type : String},
-		price : {type : String}
+		price : {type : Number}
 })
 
 const Post = model("post", PostSchema)
